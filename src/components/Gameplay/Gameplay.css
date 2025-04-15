@@ -1,0 +1,208 @@
+main{
+    /* border: 3px solid black; */
+  
+    height: 151px;
+    width: 1280px;
+
+    margin: 64px 80px 20px 80px;
+
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.score{
+    /* border: 2px solid rgb(255, 24, 24); */
+    height: 100%;
+    width: 120px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+}
+
+.score h1{
+    
+    /* border: 2px solid rgb(255, 24, 24); */
+    margin: 0;
+
+    font-size: 60px
+ 
+}
+.score h3{
+    
+    /* border: 2px solid rgb(255, 24, 24); */
+    margin: 0;
+}
+
+
+.box-no{
+    
+    /* border: 2px solid rgb(55, 0, 255); */
+    height: 100%;
+    width: 532px;
+
+/* background-color: aliceblue; */
+
+margin-right:0px;
+
+   
+}
+
+
+.box-no .boxes{
+    display: flex;
+    gap: 24px;
+    /* border: 1px solid black; */
+}
+.box-no .boxes div{
+  
+    height: 72px;
+    width: 72px;
+    border: 2px solid black;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-weight: bold;
+    font-size:x-large;
+    cursor: pointer;
+
+    
+    
+    
+}
+
+/* .box-no .boxes div:hover {
+    background-color: black;
+    color: white; 
+} */
+
+
+
+
+
+.box-no h4{
+    height: 36px;
+    font-size: 24px;
+    
+    text-align: right;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+.down-big-div{
+    /* border: 2px solid black; */
+    width: 250px;
+    height: 449px;
+
+    margin-left: 595px;
+    margin-right: 595px;
+
+    margin-top: 48px ;
+
+}
+.down-big-div h4{
+text-align: center;
+
+}
+
+.down-big-div .btn-div{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    align-items: center;
+
+}
+.down-big-div .btn-div button{
+ height: 44px;
+ width: 220px;
+ border-radius: 5px;
+ cursor: pointer;
+ 
+ 
+}
+
+.box-no .boxes div:hover {
+    background-color: #000;
+    color: #fff;
+  }
+.down-big-div .btn-div .reset-btn{
+
+    background-color: white;
+    color: black;
+    font-weight:bolder;
+
+    &:hover{
+        background-color: rgb(0, 0, 0);
+        border:none;
+        color: rgb(255, 255, 255);
+        transition: 0.2s background ease-out;
+    }
+
+
+}
+.down-big-div .btn-div .show-btn{
+
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-weight:bolder;
+    border: none;
+
+
+    &:hover{
+        background-color: white;
+        border: 1px solid black;
+        color: black;
+        transition: 0.2s background ease-out;
+    }
+
+}
+
+
+.selected{
+    background-color: black;
+    color: white;
+}
+
+.error{
+    color: red;
+    font-weight: bolder;
+}
+
+
+
+.rules {
+    background-color: #fce7e7;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    /* max-width: 1200px;
+    margin: 20px auto; */
+
+    width: 500px;
+  }
+  
+  .rules h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .rules p {
+    margin: 10px 0;
+    font-size: 16px;
+  }
